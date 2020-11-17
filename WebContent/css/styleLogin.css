@@ -1,0 +1,212 @@
+html { 
+	background: url(images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: sans-serif;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+body{
+  margin:0;
+}
+
+/*----------------Navigation--------------*/
+
+	  /* Style the navigation bar */
+
+	  .navbar {
+      width: 100%;
+      margin-top: 2%;
+      overflow: auto;
+      }
+      
+      /* Navbar links */
+      .navbar a {
+      float: right;
+      text-align: center;
+      padding: 20px;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+      }
+      .logo img{
+      float:left;
+      width: 10%;
+      height:auto;
+      margin-left: 2%;
+    }
+      /* Navbar links on mouse-over */
+      .navbar a:hover {
+      background-color: white;
+      color:black;
+      }
+      
+      /* Current/active navbar link */
+      .active {
+      border-style: solid;
+          border-width: 5px;
+      }
+      
+      /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+      @media screen and (max-width: 600px) {
+      .navbar a {
+        float: none;
+        display: block;
+      }
+      }
+      
+/*--------------------Login---------------*/  
+
+.side_reg{
+  margin-top:5%; 
+}
+.left {
+  float: left;
+  width: 48%;
+  height: 99%;
+  background: rgba(84, 84, 84, 0.69); 
+  color:White;
+  border: 3px outset white;
+}
+.right {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.side_reg:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.Hi
+    {
+       width:150px;
+       height:150px;
+       position:absolute;
+       margin-top: -90px;
+       margin-left:105px;
+    }
+
+    .Login
+    {
+      width: 350px;
+      height:420px;
+      background-color: white;
+      text-align: centre;
+      margin-top: 15% ;
+      margin-left: 24%;
+      padding: 10px;
+      border: 3px outset white;
+      border-radius: 5px;
+     
+    }  
+    .color
+    {
+      background-color:black;
+    }   
+    .next
+    {
+       margin-top: 40px;
+       background-color:#9E1823;
+       color:white;
+       padding:15px 150px;
+       border-radius: 50px;
+       cursor: pointer; 
+       font-family: sans-serif;
+    } 
+    .next:hover
+    {
+      background-color: #D2525C; 
+    }
+    form
+  	{
+     text-align: center;
+     color:white;
+     margin-top: 18%;
+    }
+    .text1
+    {
+      color: white;
+    }
+    .mail
+    { 
+        width:90%;
+        padding:10px;
+        border-radius:4px;
+        margin-top:1px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .left {
+        width: 100%;
+      }
+      .right {
+        width: 100%;
+      }
+    }
+    /*------------Contact---------------------*/
+	.contact-section{
+		background-size: cover;
+		padding: 40px 0;
+	  }
+	  .contact-section h1{
+		text-align: center;
+		color: #ddd;
+	  }
+	  .border{
+		width: 100px;
+		height: 10px;
+		background: #34495e;
+		margin: 40px auto;
+	  }
+	  
+	  .contact-form{
+		max-width: 600px;
+		margin: auto;
+		padding: 0 10px;
+		overflow: hidden;
+	  }
+	  
+	  .contact-form-text{
+		display: block;
+		width: 90%;
+		box-sizing: border-box;
+		margin: 16px 0;
+		border: 0;
+		background: #111;
+		padding: 20px 40px;
+		outline: none;
+		color: #ddd;
+		transition: 0.5s;
+	  }
+	  .contact-form-text:focus{
+		box-shadow: 0 0 10px 4px #34495e;
+	  }
+	  textarea.contact-form-text{
+		resize: none;
+		height: 120px;
+	  }
+	  .contact-form-btn{
+		transition: 0.5s;
+		font-size: 20px;
+		background-color:#9E1823;
+		color:white;
+		padding:15px 120px;
+		border-radius: 20px;
+		cursor: pointer; 
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	  }
+	  .contact-form-btn:hover{
+		background:#D2525C; 
+	  }
+	

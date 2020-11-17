@@ -1,0 +1,136 @@
+
+
+html { 
+	background: url(images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: sans-serif;
+  }
+  ::-webkit-scrollbar {
+	display: none;
+}
+/*----------------Navigation--------------*/
+
+  /* Style the navigation bar */
+
+  .navbar {
+	width: 100%;
+	margin-top: 2%;
+	overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+	float: right;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  .logo img{
+	float:left;
+	width: 10%;
+	height:auto;
+	margin-left: 2%;
+}
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+	background-color: white;
+	color:black;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+	border-style: solid;
+	border-width: 5px;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+	.navbar a {
+	  float: none;
+	  display: block;
+	}
+  }
+  /*-------Data---------*/
+  .register
+  {
+	 font-size: 20px;
+	 background-color:#9E1823;
+	 color:white;
+	 padding:15px 120px;
+	 border-radius: 20px;
+	 cursor: pointer; 
+	 display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top:2%;
+  }
+	 
+  .register:hover
+  {
+	background-color: #D2525C; 
+  }
+
+
+
+
+
+.divi
+  { 
+	  color: white;
+	  margin: auto;
+	  width: auto;
+	  padding: 10px;
+	  text-align: center;
+	  background: rgba(84, 84, 84, 0.69); 
+	  border: 3px outset white;
+	  border-radius: 20px;
+	  margin-top: 5%;
+  }
+  .divii
+  { 
+	  color: white;
+	  margin: auto;
+	  width: 40%;
+	  padding: 10px;
+	  text-align: center;
+	  background: rgba(84, 84, 84, 0.69); 
+	  border: 3px outset white;
+	  border-radius: 20px;
+	  margin-top: 5%;
+  }
+
+.div1
+{
+	margin-top: 2%;
+	width: 19.5%;
+	color: white;
+	
+	display:inline-block;
+}
+
+
+
+
+
+* { margin: 0; padding: 0; }
+body { font: 14px Georgia, serif; }
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+#page-wrap { width: 70%; margin: 80px auto; }
+
+body { text-align: center; color: #eee; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+h1 { font-size: 42px; font-weight: 600; margin: 0 0 2px 0; }
+
+pre {
+	
+	text-align: left;
+	padding: 20px;
+	margin: 0 auto 30px auto; 
+}

@@ -1,0 +1,79 @@
+html { 
+	background: url(images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: sans-serif;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+ /*----------------Navigation--------------*/
+
+	  /* Style the navigation bar */
+
+	  .navbar {
+		width: 100%;
+		margin-top: 2%;
+		overflow: auto;
+	  }
+	  
+	  /* Navbar links */
+	  .navbar a {
+		float: right;
+		text-align: center;
+		padding: 20px;
+		color: white;
+		text-decoration: none;
+		font-size: 17px;
+	  }
+	  .logo img{
+		float:left;
+		width: 10%;
+		height:auto;
+		margin-left: 2%;
+	}
+	  /* Navbar links on mouse-over */
+	  .navbar a:hover {
+		background-color: white;
+		color:black;
+	  }
+	  
+	  /* Current/active navbar link */
+	  .active {
+		border-style: solid;
+        border-width: 5px;
+	  }
+	  
+	  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+	  @media screen and (max-width: 500px) {
+		.navbar a {
+		  float: none;
+		  display: block;
+		}
+	  }
+	  
+/*---------------------About----------------------*/
+
+div.background {
+ 
+  border: 1px solid black;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+ 
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=30); 
+}
+ 
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}

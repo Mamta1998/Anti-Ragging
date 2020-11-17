@@ -1,0 +1,221 @@
+html { 
+	background: url(images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: sans-serif;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+  /*----------------Navigation--------------*/
+
+	  /* Style the navigation bar */
+
+	  .navbar {
+		width: 100%;
+		margin-top: 2%;
+		height:200px;
+		overflow: auto;
+	  }
+	  
+	  /* Navbar links */
+	  .navbar a {
+		float: right;
+		text-align: center;
+		padding: 20px;
+		color: white;
+		text-decoration: none;
+		font-size: 17px;
+	  }
+	  .logo img{
+		float:left;
+		width: 10%;
+		height:auto;
+		margin-left: 2%;
+	}
+	  /* Navbar links on mouse-over */
+	  .navbar a:hover {
+		background-color: white;
+		color:black;
+	  }
+	  
+	  /* Current/active navbar link */
+	  .active {
+		border-style: solid;
+        border-width: 5px;
+	  }
+	  
+	  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+	  @media screen and (max-width: 500px) {
+		.navbar a {
+		  float: none;
+		  display: block;
+		}
+	  }
+	  
+  /* ----------------Inside--------------- */
+  .register
+  {
+	 font-size: 20px;
+	 background-color:#9E1823;
+	 color:white;
+	 padding:15px 120px;
+	 border-radius: 20px;
+	 cursor: pointer; 
+	 display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top:2%;
+  }
+	 img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
+	  }
+	 
+  .register:hover
+  {
+	background-color: #D2525C; 
+  }
+  .divi
+  { 
+	  color: white;
+	  margin: auto;
+	  width: auto;
+	  padding: 10px;
+	  text-align: center;
+	  background: rgba(84, 84, 84, 0.69); 
+	  border: 3px outset white;
+	  border-radius: 20px;
+	  margin-top: -4%;
+  }
+  .divi1
+  { 
+	  color: white;
+	  margin: auto;
+	  width: 40%;
+	  padding: 10px;
+	  text-align: center;
+	  background: rgba(84, 84, 84, 0.69); 
+	  border: 3px outset white;
+	  border-radius: 20px;
+	  margin-top: 2%;
+  }
+  /*----------------------------Table------------------*/
+		.w3-table-all {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	display: table;
+	color:black;
+	font-family: Trebuchet MS, Arial, Helvetica,
+		sans-serif;
+}
+
+.w3-table-all {
+	border: 1px solid #ccc
+}
+
+.w3-bordered tr, .w3-table-all tr {
+	border-bottom: 1px solid #ddd
+	
+}
+
+.w3-striped tbody tr:nth-child(even) {
+	background-color: #f1f1f1
+}
+
+.w3-table-all tr:nth-child(odd) {
+	background-color: #fff
+}
+
+.w3-table-all tr:nth-child(even) {
+	background-color: #f1f1f1
+}
+
+.w3-hoverable tbody tr:hover, .w3-ul.w3-hoverable li:hover {
+	background-color: #ccc
+}
+
+.w3-centered tr th, .w3-centered tr td {
+	text-align: center
+}
+
+.w3-table td, .w3-table th, .w3-table-all td, .w3-table-all th {
+	padding: 8px 8px;
+	display: table-cell;
+	text-align: left;
+	vertical-align: top
+}
+
+.w3-table th:first-child, .w3-table td:first-child, .w3-table-all th:first-child,
+	.w3-table-all td:first-child {
+	padding-left: 16px
+}
+.w3-red, .w3-hover-red:hover {
+	color: #fff !important;
+	background-color: #f44336 !important
+}
+ /*---------------------------Elements------------------*/
+.mail
+    { 
+        width:90%;
+        padding:10px;
+        border-radius:4px;
+        margin-top:1px;
+    }
+    
+    
+	/*-------------------------------Dropdown------------------*/
+	/* Dropdown Button */
+.dropbtn {
+  
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: white;
+  color:black;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float:right;
+  margin-right: 5%;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color:white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #D2525C;color: white;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
